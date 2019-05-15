@@ -1,0 +1,105 @@
+/* header section */
+body{
+font-family: Kurale;
+}
+#headerhead{
+  background:url('../images/coding.jpg') no-repeat 0 -50px;
+  min-height:500px;
+  background-size: cover;
+  text-align: center;
+  font-family: Chelsea Market;
+}
+
+
+#headerhead h1{
+  color: #c1224f;
+
+}
+
+#headerhead p{
+  color: #fcf8f3;
+}
+
+.headerdiv{
+  padding-top: 70px;
+}
+.btn {
+  color: #ffffff;
+}
+
+.headbotton{
+  padding-top:30px;
+}
+
+/* .navbar{
+  padding: 0 0 4.5rem;
+} */
+
+/* Testimonial  */
+
+#testimonial{
+  padding: 5% 15%;
+  font-size: 1.1rem;
+
+
+}
+
+#testimonial h1, h2{
+  text-align: center;
+  color: #c1224f;
+}
+
+#testimonial p{
+  padding-top: 3%;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+  line-height: 1.6;
+}
+
+hr{
+  margin: 50px;
+  border-top: 1px dotted black;
+  width: 50%;
+  align-content: center;
+  margin: 15% 25% 0 25%;
+}
+
+/* explore */
+
+#explore{
+  padding: 5% 15%;
+  width: 100%;
+  padding-top: 3%;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.col{
+  width: 25%;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.exploreimages{
+  width: 80%;
+
+}
+
+footer{
+  min-height: 100px;
+  color: #ffffff;
+  background-color: #c1224f;
+  text-align: center;
+  padding-top: 30px;
+}
+
+/* @media query  */
+
+@media screen and (max-width: 920px) {
+  .exploreimages{
+    width: 20%;
+
+  }
+}
